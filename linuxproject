@@ -1,0 +1,69 @@
+LINUX:
+
+whoami
+
+sudo su -
+hostnamectl set-hostname "name"
+
+hostname -I to check IP address
+cd /
+who
+
+root--->
+ll
+/bin --  binary or executable programs
+/etc -- system config files
+/hme -- home directory
+/opt -- optional or third party software
+/tmp - temporary space
+/usr - user related programs
+/var -- log files
+/sbin -- super user
+
+
+cd ../../../..
+yum install <pkg>
+
+absolute path --  relative path (/ abosulte --- name /  relative)
+ cp -rp <sourcepath> <destination path>
+ mv <src> <dest>    -----------> cut paste
+ mv <old name> <new name>
+
+top
+lscpu
+free
+free -m
+free -g
+
+nested directory mkdir -p dir1/dir2/dir3/
+
+useradd <username>
+passwd <password>
+
+uname ----> which server
+uname -a ----> detailed
+
+usermod -c "comment"
+
+userdel -r <username>
+
+tail -n /etc/passwd
+
+head -n <file path>
+
+more <file path>
+
+wc <filepath>
+
+wget <URL>
+
+unzip <name.zip>
+zip -r dirname <name.zip>
+
+tar -xvf <file name>
+tar -cvf dirname filename
+
+
+
+
+

@@ -1,3 +1,4 @@
+
 DAY1 ---------------
 LINUX :
 CLI :
@@ -108,6 +109,90 @@ git branch -r
 
 * head pointer points to the main branch
 
+================================================================
+
+git conflict
+
+===================================================================
+
+PR (pull requests)
+
+fork - open source project contribution
+
+===================================================================
+
+protecting main branch
+
+=================================================================
+
+Filtering:
+
+git log --oneline
+git log --oneline -n
+git log --author name
+git log --since "12-01-2026" >> "MM-DD-YYYY"
+
+========================================================
+
+git config --list
+
+===========================================================
+
+Alias
+-----
+
+git status 
+
+git config --global alias.s "status"
+
+git config --global --unset alias.s
+
+============================================================
+
+
+amend
+-----
+
+git commit --amend -m "label" -m "label2" -m "label3"  >>> only the latest
+
+===============================================================
+
+revert
+------
+
+git revert commitid
+
+=============================
+
+
+git commit -am "without adding from workspace to local repo" >>> only modified which are already commited once
+
+
+git reset HEAD filename  >>>>>> stagging to WS
+
+git reset --soft cid (n-1) >>>>>>>>>>>>>>>> LR to stagging
+
+git reset --mixed cid (n-1) >>>>>>>>>>>>>>>>>>>>> LR to WS
+
+
+================================================
+
+
+TAG:
+
+git tag <tag name>
+
+git checkout <tag name>
+
+git push origin <t name>
+
+git tag -d <t name>
+
+git push origin -d <t name>
+
+git checkout refs/tags/v1.0
+
+==============================================
 
 
 

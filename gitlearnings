@@ -1,0 +1,115 @@
+DAY1 ---------------
+LINUX :
+CLI :
+
+touch filename
+touch F1 F2 F3
+
+mkdir dir1 dir2 dir3
+clear / ctrl+L
+
+rm -rf filename/dirname
+rm -rf * to delete all
+
+ls
+ll
+ls -ltrh
+ls-la
+
+cd <dirname>
+cd ..
+pwd
+
+================================================
+
+DAY 2 --------------
+
+cat filename <show data in the file>
+
+vi /nano editor
+
+-----------
+
+GIT concepts
+
+git --version
+
+git init
+
+git config --global user.name ""
+git config --global user.email ""
+
+workspace>> stagging/indexing>> local.repo
+git add filename >> git commit -m ""
+
+git status
+
+git log
+
+git show commitid
+
+git mv f1 f3 "rename"
+
+git clone <URL>
+
+git push
+
+add collabarator >> some other user has to push code to the hub >> settings >> collaborator >> manage access >> git hub mailid
+
+git pull --rebase "if anyone has done commit on the hub but I couldnt able push it to the hub this commands will help to push it"
+
+======================================
+
+Day 3----------------
+
+Branch :
+
+main/master >> release branch/feuture >> hotfix
+
+git branch
+git branch <branchname>
+git checkout <branchname> == same like change directory cd
+
+git checkout main
+
+git checkout -b <branchname>
+
+git merge <branchname>== you should be in the in primary branch in which you have to merge
+
+git branch -d <branchname>
+
+git branch -D <branchname> == forcefully if you did not merge to any primary branch
+
+git push <URL> branchname == git push origin branchname
+
+git push origin -d branchname
+
+==================================================
+
+Day 4---------------
+
+vim fname
+
+esc -- i
+
+esc : w >> write mode
+esc : q >> quit
+esc : wq! >> forcefully
+
+git cheery-pick commitid >> pickup some file from a group of code files
+
+git conflict: having same name for both codes from diff dev
+
+=============================================================
+
+Day 5-----------------
+
+git branch -r
+
+* head pointer points to the main branch
+
+
+
+
+
+

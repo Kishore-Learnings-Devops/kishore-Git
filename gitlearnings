@@ -194,7 +194,55 @@ git checkout refs/tags/v1.0
 
 ==============================================
 
+ git pull --rebase 
 
+ ======================
+
+git pull vs git fetch 
+
+=====================================
+
+git pull ----> git fetch + git merge origin
+
+
+git pull --rebase
+
+===================
+
+git stash list
+
+git stach save "filename"
+
+git stash show stash@{x}
+
+POP, APPLY, DRO
+---------------
+
+POP - cut and paste
+-----
+git stash pop
+
+
+Apply - copy and paste
+--------
+git stash apply
+
+DROP - delete
+------------
+git stash drop
+
+
+=========
+
+.gitignore    ----> git wont track that files
+
+
+git clean -n ----> which shows which are deleting as unwanted
+
+git clean -f -----> forcefull delete
+
+
+==============
 
 
 

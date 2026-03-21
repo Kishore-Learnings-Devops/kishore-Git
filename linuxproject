@@ -63,6 +63,25 @@ zip -r dirname <name.zip>
 tar -xvf <file name>
 tar -cvf dirname filename
 
+ps -ef
+ps -ef | grep tomcat
+kill -9 pid --------> forcefull kill
+
+gg - top
+G -Ground /bottom
+yy -----copy
+nyy   ----number of copies
+p -paste
+dd - delete
+n -dd 
+u  ---undo
+:set nu   -----------> set numbers for lines
+:set nonu
+/<name>
+
+
+
+
 
 
 

@@ -1,1 +1,6 @@
-
+terraform init
+terraform plan
+terraform apply
+terraform destroy
+Terraform is an IAC as code service in which we declare the infrastructure in declarative code
+The state file is the key that has full control over the infra
